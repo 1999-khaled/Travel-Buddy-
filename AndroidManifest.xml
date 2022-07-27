@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splash">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.main.ui.main.franceplacevr"></activity>
+        <activity android:name=".ui.main.ui.main.francerestaurants" />
+        <activity android:name=".ui.main.ui.main.francehotels" />
+        <activity
+            android:name=".aFrancea"
+            android:label="@string/title_activity_a_francea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dEgypt"
+            android:label="@string/title_activity_d_egypt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".egyptrestaurants" />
+        <activity android:name=".egyptplacesvr" />
+        <activity android:name=".egypthotels" />
+        <activity android:name=".Abroad" />
+        <activity
+            android:name=".aegypta"
+            android:label="@string/title_activity_aegypta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".profile" />
+        <activity android:name=".dice" />
+        <activity android:name=".Play_buddy" />
+        <activity android:name=".Bucket_list" />
+        <activity android:name=".Home_page" />
+        <activity android:name=".Firstpage" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
